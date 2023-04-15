@@ -3,7 +3,7 @@ This is a frontend of staking Dapp using next.js.
 ## Getting Started
 
 ```bash
-git clone <this repo name>
+git clone git@github.com:thenua3bhai/frontend-staking-Dapp-next.git
 npm install
 npm run dev
 
