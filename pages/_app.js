@@ -15,9 +15,8 @@ import { ToastContainer } from "react-toastify";
 
 export default function App({ Component, pageProps }) {
   const { chains, provider } = configureChains(
-    [goerli, sepolia, hardhat],
+    [sepolia, hardhat],
     [
-      infuraProvider({ apiKey: process.env.NEXT_PUBLIC_INFURA_ID_GOERLI }),
       publicProvider(),
       alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_INFURA_ID_SEPOLIA }),
       jsonRpcProvider({
