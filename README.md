@@ -16,6 +16,7 @@ In Backend run
 
 ```bash
  npm install
+ npx hardhat test
  npx hardhat node
 ```
 
